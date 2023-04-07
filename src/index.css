@@ -1,0 +1,111 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  /* background: linear-gradient(to right, rgb(56, 213, 85), rgb(233, 233, 7)); */
+  background-color: beige;
+  box-sizing: border-box;
+  width: 100vh;
+  height: 100vh;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+
+.container{
+  width: 600px;
+  border: 0.12rem solid black;
+  height: auto;
+  margin: 90px 100px;
+  border-radius: 1rem;
+  display: flex;
+  flex-direction: row;
+}
+
+.leftmost--container{
+  width: 180px;
+  border-right: 0.1rem solid black;
+}
+
+.rightmost--container{
+ width: 420px;
+}
+
+.navbar--container{
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5rem;
+}
+
+.navbar--container--1 button{
+  margin-left: 2px;
+}
+
+.navbar--container--2 button{
+  margin-left: 2px;
+}
+
+button{
+  background-color: white;
+  border: 0.01rem solid black;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:active{
+  background-color: #00bcd4;
+}
+
+.previous--notes--container{
+  height: 100%;
+  padding: 0;
+}
+
+.saved--notes--title{
+  text-align: center;
+}
+
+textarea{
+  height: 100px;
+  padding: 0.5rem;
+  border-radius: 1rem;
+  background-color: white;
+  border: 0.1rem solid black;
+  outline: none;
+  width: 100%;
+}
+
+.text--area--container{
+  width: 90%;
+  margin-left: 10px;
+  margin-top: 20px;
+}
+
+.text--area--container--footer{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 103%;
+}
+
+.text--area--container--footer button{
+  height: 30px;
+}
+
+.oldNotesArray{
+  margin: 0;
+  font-size: 0.4rem;
+}
+
+.text--area--container--input{
+  border: 0.1rem solid black;
+  width: 100%;
+  border-radius: 10px;
+  margin: 5px 0;
+  padding: 0.5rem;
+  outline: none;
+}
