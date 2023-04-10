@@ -1,5 +1,6 @@
 import React, {useEffect, useState} from 'react';
 import '../index.css';
+import PreviousNotes from './PreviousNotes';
 
 const NewTextArea = () => {
     const [title, setTitle] = useState('');
@@ -20,15 +21,17 @@ const NewTextArea = () => {
     
 
     function saveNote(){
+        <PreviousNotes title = {title} text = {text} />
+
         if(title.length === 0){
             alert('Enter the Title Name');
         }else{
             localStorage.setItem(JSON.stringify(title), JSON.stringify(text));
             setText(''); 
             setTitle('');
-        }
+        }      
     }
-
+    
   return (
     <div className='text--area--container'> 
         <div>
