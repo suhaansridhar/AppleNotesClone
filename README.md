@@ -3,6 +3,10 @@ Currently stopped working on this project as the design which was supposed to be
 The date is 11th of April 2023.
 Expected Date of Completion 25th of April 2023.
 
+The Completed Working Application Appearance and Functionalities =
+
+![AppleNotesClone](https://user-images.githubusercontent.com/60266970/231199373-a3527b38-3691-4137-a969-199c06b87578.png)
+
 
 
 # Getting Started with Create React App
