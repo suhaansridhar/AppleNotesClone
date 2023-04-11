@@ -1,3 +1,10 @@
+
+Currently stopped working on this project as the design which was supposed to be implemented is beyond my skill knowledge. 
+The date is 11th of April 2023.
+Expected Date of Completion 25th of April 2023.
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
